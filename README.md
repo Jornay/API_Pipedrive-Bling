@@ -56,7 +56,10 @@ Após isso, se direcione pelo terminal onde a pasta onde o projeto foi clonada e
 Faça a criação do arquivo "**.env**" e configure suas variáveis de ambiente conforme o arquivo **.envExample**.
 
 <br>
--- Por fim, basta apenas digitar o comando de inicialização do projeto:
+
+---
+
+Por fim, basta apenas digitar o comando de inicialização do projeto:
 
 `yarn dev`
 
