@@ -61,7 +61,7 @@ yarn install
 
 <br>
 
-5. Create the .env file and configure your environment variables based on the .envExample file.
+5. Create the **.env** file and configure your environment variables based on the **.envExample** file.
 
 <br>
 
