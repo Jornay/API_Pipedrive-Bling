@@ -53,11 +53,7 @@ Após isso, se direcione pelo terminal onde a pasta onde o projeto foi clonada e
 
 <br>
 
- -- Por fim será necessário realizar a alteração em alguns campos em específico no projeto para que ele funcione.
-Terá que ser alterado o arquivo **routes.ts** colocando a url correspondente ao seu mango de dados MongoDB.
-
-
-Em seguida será necessário realizar a alteração no arquivo **DealsWithWonController.ts** colocando a sua API Token Correspondendo, localizada no site do Pipedrive.
+Faça a criação do arquivo "**.env**" e configure suas variáveis de ambiente conforme o arquivo **.envExample**.
 
 <br>
 <br>
