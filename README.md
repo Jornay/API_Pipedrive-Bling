@@ -1,6 +1,6 @@
 # **API_IntegrationPipedrive**
 
-📃 ## **About**
+## 📃 **About**
 This project consists of creating an application that collects data with the Won status from the Pipedrive app and saves it in a MongoDB NoSQL database.
 
 ---
