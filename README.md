@@ -1,4 +1,4 @@
-# API_IntegrationPipedrive
+# **API_IntegrationPipedrive**
 
 ## 📃 **Sobre**
 
@@ -8,7 +8,7 @@
 
 ---
 
-## Req
+## To Do
 
 ✅ Criar contas nas plataformas Pipedrive e Bling;
 ✅ Utilizar o banco de dados MongoDB para persistência dos dados;
@@ -30,53 +30,68 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias:
 - MongoDB
 - Mongoose
 - ts-node-dev
-<br>
 
---- 
+---
 
- ## ⚙ **Requisitos**
-
-Esses são os requisitos para rodar o projeto em sua máquina.
+## ⚙ **Requirements**
+To run the project on your machine, make sure you have the following installed:
 
 - Node.JS >= 10.16.2
 - Yarn >= 1.17.3
 - NPM >= 6.9.0
-<br> 
-
-## **Como testar o projeto** 🔧
-
-Para realizar a reprodução do que o projeto tem a oferecer, é necessário que na sua maquina esteja instalado:
-
-- [NodeJs](https://nodejs.org/en/download/)
-- [Yarn](https://classic.yarnpkg.com/en/docs/install/#windows-stable)
-- [Git](https://git-scm.com/downloads)&nbsp;( Para clonar o repositório )
-
-Primeiro é necessário realizar o clone do repositório em sua maquina através do comando abaixo no seu terminal **git bash**.
-
-`git clone https://github.com/Jornay/API_IntegrationPipedrive.git`
-
-<br>
-Após isso, se direcione pelo terminal onde a pasta onde o projeto foi clonada e baixe todas as dependências utilizadas com o simples comando:
-
-`yarn install`
-
-<br>
-
- -- Por fim será necessário realizar a alteração em alguns campos em específico no projeto para que ele funcione.
-Terá que ser alterado o arquivo **routes.ts** colocando a url correspondente ao seu mango de dados MongoDB.
-
-
-Em seguida será necessário realizar a alteração no arquivo **DealsWithWonController.ts** colocando a sua API Token Correspondendo, localizada no site do Pipedrive.
-
-<br>
-<br>
--- Por fim, basta apenas digitar o comando de inicialização do projeto:
-
-`yarn dev`
-
-E ele esta funcionando na sua maquina! 🚀🚀
-<br>
-<br>
 
 ---
-### Desenvolvido por [Lucas de Abreu](https://github.com/Jornay) 
+
+## 🔧 **Getting Started** 
+To test the project, follow these steps:
+
+1. Install the following software on your machine:
+
+Node.js
+Yarn
+Git (to clone the repository)
+
+<br>
+
+2. Clone the repository to your local machine:
+
+```
+git clone https://github.com/Jornay/API_IntegrationPipedrive.git
+```
+
+<br>
+
+3. Navigate to the project folder:
+
+```
+cd API_IntegrationPipedrive
+```
+
+<br>
+
+4. Install project dependencies:
+
+```
+yarn install
+```
+
+<br>
+
+5. Create the **.env** file and configure your environment variables based on the **.envExample** file.
+
+<br>
+
+6. Start the application:
+
+```
+yarn dev
+```
+
+<br>
+
+7. The application should now be running on your machine. You can access it at http://localhost:3000 or in another PORT configurada in your .env file.
+
+<br>
+
+## Author
+This project was developed by [Lucas de Abreu](https://github.com/Jornay).
