@@ -3,7 +3,6 @@ const dotenv = require('dotenv');
 import mongoose from "mongoose";
 import { DealsWithWonController } from "./controllers/DealsWithWonController";
 
-
 dotenv.config()
 
 const mongoUriConnection = process.env.DB_URI
