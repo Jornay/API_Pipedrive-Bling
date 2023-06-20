@@ -1,8 +1,5 @@
 # API_IntegrationPipedrive
 
-
-
-
 ## 📃 **Sobre**
 
 &nbsp;&nbsp;&nbsp;&nbsp;Esse projeto se consiste na criação de uma aplicação que tem a capacidade de realizar a coleta de dodos com status de pedido **Ganho** do aplicativo **Pipedrive** e salvando os mesmos no banco de dados não relacional MongoDB. 
@@ -10,6 +7,18 @@
 <br>
 
 ---
+
+## Req
+
+✅ Criar contas nas plataformas Pipedrive e Bling;
+✅ Utilizar o banco de dados MongoDB para persistência dos dados;
+✅ Criar uma tabela no banco de dados agregando as oportunidades inseridas no Bling por dia e
+valor total;
+Criar uma integração entre as plataformas Pipedrive e Bling (A integração deve buscar as
+oportunidades com status igual a ganho no Pipedrive, depois inseri-las como pedido no
+Bling);
+Criar endpoint para trazer os dados consolidados do banco;
+
 
 ## 🛠 **Tecnologias utilizadas**
 
