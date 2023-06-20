@@ -24,5 +24,6 @@ const router = Router();
 const dealsWithWonController = new DealsWithWonController();
 
 router.post("/users", dealsWithWonController.createDeals);
+router.get("/users", dealsWithWonController.getAllDeals)
 
 export { router };

@@ -2,7 +2,7 @@ import { Request, Response } from "express";
 import { api } from "../services/apiPipedrive";
 import { CreateDealsWithWonRepository } from "../repositories/CreateDealsWithWonRepository";
 import { dTcreateDealsWithWonRepository } from '../dt/createDealsWithWonRepository.dt'
-import  CreatedOrders from '../services/createDataInBling'
+import CreatedOrders from '../services/createDataInBling'
 
 
 class DealsWithWonController {
@@ -14,17 +14,29 @@ class DealsWithWonController {
             }
 
             const orders = await CreatedOrders.create(data);
-            if(orders[0] === false){ 
+            if (orders[0] === false) {
                 return response.json("Data already created.");
             }
             const createDealsWithWonRepository = new CreateDealsWithWonRepository();
-           
+
             var dealsObject = dTcreateDealsWithWonRepository(data);
-            
+
             dealsObject.map((deal) => {
                 createDealsWithWonRepository.execute(deal);
             })
             return response.json("data saved successfully");
+        } catch {
+
+        }
+    }
+
+    async getAllDeals(request: Request, response: Response) {
+        try {
+
+            const createDealsWithWonRepository = new CreateDealsWithWonRepository();
+            const allDeals = await createDealsWithWonRepository.listAllDeals();
+
+            return response.json(allDeals);
         } catch {
 
         }

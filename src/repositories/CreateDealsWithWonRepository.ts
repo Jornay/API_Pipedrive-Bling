@@ -28,6 +28,10 @@ class CreateDealsWithWonRepository{
 
         await deal.save();
     }
+    async listAllDeals() {
+        const deals = await DealSchema.find(); // Consulta todos os documentos na coleção
+        return deals;
+      }
 
 }
 
