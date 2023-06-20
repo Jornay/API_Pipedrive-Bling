@@ -17,7 +17,7 @@
 ✅ Criar uma tabela no banco de dados agregando as oportunidades inseridas no Bling por dia e
 valor total;
 
-Criar uma integração entre as plataformas Pipedrive e Bling (A integração deve buscar as
+✅ Criar uma integração entre as plataformas Pipedrive e Bling (A integração deve buscar as
 oportunidades com status igual a ganho no Pipedrive, depois inseri-las como pedido no
 Bling);
 
