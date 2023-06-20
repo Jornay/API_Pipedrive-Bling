@@ -11,12 +11,24 @@
 ## To Do
 
 ✅ Criar contas nas plataformas Pipedrive e Bling;
+
+<br>
+
 ✅ Utilizar o banco de dados MongoDB para persistência dos dados;
+
+<br>
+
 ✅ Criar uma tabela no banco de dados agregando as oportunidades inseridas no Bling por dia e
 valor total;
+
+<br>
+
 Criar uma integração entre as plataformas Pipedrive e Bling (A integração deve buscar as
 oportunidades com status igual a ganho no Pipedrive, depois inseri-las como pedido no
 Bling);
+
+<br>
+
 Criar endpoint para trazer os dados consolidados do banco;
 
 
