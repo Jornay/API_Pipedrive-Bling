@@ -3,6 +3,7 @@ import { Router } from "express";
 import dotenv from "dotenv";
 import mongoose from "mongoose";
 import { DealsWithWonController } from "./controllers/DealsWithWonController";
+var cors = require('cors');
 
 dotenv.config();
 
@@ -12,14 +13,9 @@ const router = Router();
 const dealsWithWonController = new DealsWithWonController();
 
 app.use(express.json());
+app.use(cors());
 
-app.use((req, res, next) => {
-    res.setHeader('Access-Control-Allow-Origin', '*'); // Configura o cabeçalho Access-Control-Allow-Origin para permitir todas as origens
-    res.setHeader('Access-Control-Allow-Methods', 'GET, POST, PUT, DELETE'); // Configura os métodos HTTP permitidos
-    res.setHeader('Access-Control-Allow-Headers', 'Content-Type, Authorization'); // Configura os cabeçalhos permitidos
-    next();
-  });
-
+console.log(app)
 const mongoUriConnection = process.env.DB_URI;
 
 if (!mongoUriConnection) {

@@ -36,7 +36,7 @@ class DealsWithWonController {
             const createDealsWithWonRepository = new CreateDealsWithWonRepository();
             const allDeals = await createDealsWithWonRepository.listAllDeals();
 
-            return response.json({allDeals});
+            return response.json(allDeals);
         } catch {
 
         }
