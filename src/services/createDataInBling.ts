@@ -110,12 +110,12 @@ const create = async (data: any) => {
         }
     });
 
-    const CreatedOrders = await Promise.all(orders).then((res) => {
+    const CreatedOrdersBling = await Promise.all(orders).then((res) => {
         const response = [res[res.length - 1]];
         return response;
     });
 
-    return CreatedOrders;
+    return CreatedOrdersBling;
 };
 
 export = { create, };

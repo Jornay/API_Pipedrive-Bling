@@ -2,7 +2,7 @@ import { Request, Response } from "express";
 import { api } from "../services/apiPipedrive";
 import { CreateDealsWithWonRepository } from "../repositories/CreateDealsWithWonRepository";
 import { dTcreateDealsWithWonRepository } from '../dt/createDealsWithWonRepository.dt'
-import CreatedOrders from '../services/createDataInBling'
+import CreatedOrdersBling from '../services/createDataInBling'
 
 
 class DealsWithWonController {
@@ -13,7 +13,7 @@ class DealsWithWonController {
                 return "Data not found."
             }
 
-            const orders = await CreatedOrders.create(data);
+            const orders = await CreatedOrdersBling.create(data);
             if (orders[0] === false) {
                 return response.json("Data already created.");
             }
