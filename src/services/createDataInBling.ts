@@ -106,7 +106,7 @@ const create = async (data: any) => {
                 return pedido;
             }
         } catch (error) {
-            console.log("error");
+            console.log(error)
         }
     });
 

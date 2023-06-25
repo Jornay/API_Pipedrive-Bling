@@ -15,7 +15,6 @@ const dealsWithWonController = new DealsWithWonController();
 app.use(express.json());
 app.use(cors());
 
-console.log(app)
 const mongoUriConnection = process.env.DB_URI;
 
 if (!mongoUriConnection) {
