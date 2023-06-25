@@ -21,7 +21,7 @@ valor total;
 oportunidades com status igual a ganho no Pipedrive, depois inseri-las como pedido no
 Bling);
 
-Criar endpoint para trazer os dados consolidados do banco;
+✅ Criar endpoint para trazer os dados consolidados do banco;
 
 
 ## 🛠 **Tecnologias utilizadas**
